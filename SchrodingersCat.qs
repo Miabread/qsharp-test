@@ -8,6 +8,7 @@ operation Main() : Result {
     // In the superposition, the qubit has a 50-50 chance of being measured as either 0 or 1
     let result = M(schrodingersCat);
 
+    // Read the measured result
     if result == One {
         Message("₍^ >⩊< ^₎Ⳋ");
         Message("The cat is alive! Huzzah!");
